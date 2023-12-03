@@ -28,9 +28,9 @@ export default function Home({ allPostsData }) {
                 in web3 and cryptocurrency quantitative trading. I also closely follow the latest developments in AI.
                 <Link href={"https://github.com/1264204425"}>Here is my github</Link>
             </section>
-            <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-                <h2 className={utilStyles.headingLg}>Blog</h2>
-                <a href='https://blog.sleepnow.work/'>Here is My Blog</a>
+            // <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+            <h2 className={utilStyles.headingLg}>Blog</h2>
+            <a href='https://blog.sleepnow.work/'>Here is My Blog</a>
                 // <ul className={utilStyles.list}>
                 //     {allPostsData.map(({ id, date, title }) => (
                 //         <li className={utilStyles.listItem} key={id}>
@@ -44,7 +44,7 @@ export default function Home({ allPostsData }) {
                 //         </li>
                 //     ))}
                 // </ul>
-            </section>
+            // </section>
         </Layout>
     )
 }
