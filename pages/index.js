@@ -24,16 +24,18 @@ export default function Home({ allPostsData }) {
                 <title>{siteTitle}</title>
             </Head>
             <section className={utilStyles.headingMd}>
-                Hello, I am a junior full-stack developer. Currently, I am learning Golang and React. I enjoy playing table tennis and badminton. I have a passion for Python programming, where I work on API development and backend development. Additionally, I have an interest in web3 and cryptocurrency quantitative trading. I also closely follow the latest developments in AI.
+                Hello, I am a junior full-stack developer. Currently, I am learning Golang and React. I enjoy playing table tennis and badminton. I have a passion for Python programming, where I work on API development and backend development. Additionally, I have an interest in web3 and cryptocurrency quantitative trading. I also closely follow the latest developments in AI.You can learn me from my github and blog.
                 {/* 使用 <a> 标签来指向外部链接 */}
-                <a href="https://github.com/1264204425">Here is my github</a>
             </section>
 
             {/* 使用 JSX 正确的注释方式 */}
             {/* <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}> */}
-            <h2 className={utilStyles.headingLg}>Blog</h2>
+            <h2 className={utilStyles.headingLg}>Click it</h2>
             {/* 同样，对于外部链接使用 <a> 标签 */}
-            <a href='https://blog.sleepnow.work/'><h2>Here is my blog</></a>
+            <h2>
+            <a href="https://github.com/1264204425">Here is my github</a>
+            <a href='https://blog.sleepnow.work/'>Here is my blog</a>
+            </h2>
             {/* 注释掉的列表，使用正确的 JSX 注释格式 */}
             {/* 
             <ul className={utilStyles.list}>
