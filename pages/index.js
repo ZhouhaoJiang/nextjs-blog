@@ -32,10 +32,14 @@ export default function Home({ allPostsData }) {
             {/* <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}> */}
             <h2 className={utilStyles.headingLg}>Click it</h2>
             {/* 同样，对于外部链接使用 <a> 标签 */}
-            <h2>
-            <a href="https://github.com/1264204425">Here is my github</a>
-            <a href='https://blog.sleepnow.work/'>Here is my blog</a>
-            </h2>
+            <h3>
+                <div>
+                    <a href="https://github.com/1264204425">Here is my github</a>
+                </div>
+                <div>
+                    <a href='https://blog.sleepnow.work/'>Here is my blog</a>
+                </div>
+            </h3>
             {/* 注释掉的列表，使用正确的 JSX 注释格式 */}
             {/* 
             <ul className={utilStyles.list}>
