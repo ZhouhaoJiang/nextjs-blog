@@ -33,7 +33,7 @@ export default function Home({ allPostsData }) {
             {/* <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}> */}
             <h2 className={utilStyles.headingLg}>Blog</h2>
             {/* 同样，对于外部链接使用 <a> 标签 */}
-            <a href='https://blog.sleepnow.work/'>Here is my blog</a>
+            <a href='https://blog.sleepnow.work/'><h2>Here is my blog</></a>
             {/* 注释掉的列表，使用正确的 JSX 注释格式 */}
             {/* 
             <ul className={utilStyles.list}>
