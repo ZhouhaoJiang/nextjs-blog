@@ -34,10 +34,10 @@ export default function Home({ allPostsData }) {
             {/* 同样，对于外部链接使用 <a> 标签 */}
             <h3>
                 <div>
-                    <a href="https://github.com/1264204425">Here is my github</a>
+                    <a href="https://github.com/1264204425">Here is my Github</a>
                 </div>
                 <div>
-                    <a href='https://blog.sleepnow.work/'>Here is my blog</a>
+                    <a href='https://blog.sleepnow.work/'>Here is my Blog</a>
                 </div>
             </h3>
             {/* 注释掉的列表，使用正确的 JSX 注释格式 */}
