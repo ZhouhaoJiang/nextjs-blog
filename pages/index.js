@@ -23,9 +23,19 @@ export default function Home({ allPostsData }) {
             <Head>
                 <title>{siteTitle}</title>
             </Head>
+            {/*<section className={utilStyles.headingMd}>*/}
+            {/*    Hello, I am a junior full-stack developer. Currently, I am learning Golang and React. I enjoy playing*/}
+            {/*    table tennis and badminton. I have a passion for Python programming, where I work on API development and*/}
+            {/*    backend development. Additionally, I have an interest in web3 and cryptocurrency quantitative trading. I*/}
+            {/*    also closely follow the latest developments in AI.You can learn me from my github and blog.*/}
+            {/*</section>*/}
             <section className={utilStyles.headingMd}>
-                Hello, I am a junior full-stack developer. Currently, I am learning Golang and React. I enjoy playing table tennis and badminton. I have a passion for Python programming, where I work on API development and backend development. Additionally, I have an interest in web3 and cryptocurrency quantitative trading. I also closely follow the latest developments in AI.You can learn me from my github and blog.
-                {/* 使用 <a> 标签来指向外部链接 */}
+                <p>Hello, I am a junior full-stack developer. Currently, I am continuing to learn Golang and React.</p>
+                <p>I enjoy playing table tennis and badminton. I have a passion for Python programming, where I work on
+                    API development and backend development.</p>
+                <p>Additionally, I have an interest in web3 and cryptocurrency quantitative trading. I also closely
+                    follow the latest developments in AI.</p>
+                <p>You can learn more about me from my GitHub and blog.</p>
             </section>
 
             {/* 使用 JSX 正确的注释方式 */}

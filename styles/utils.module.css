@@ -20,9 +20,11 @@
     margin: 1rem 0;
 }
 
-.headingMd {
+.headingMd p{
     font-size: 1.2rem;
     line-height: 1.5;
+    margin-top: 10px; /* 减小上边距 */
+    margin-bottom: 10px; /* 减小下边距 */
 }
 
 .borderCircle {
