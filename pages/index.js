@@ -47,7 +47,7 @@ export default function Home({ allPostsData }) {
                     <a href="https://github.com/1264204425">Here is my Github</a>
                 </div>
                 <div>
-                    <a href='https://blog.sleepnow.work/'>Here is my Blog</a>
+                    <a href='https://autocode.fun'>Here is my Blog</a>
                 </div>
             </h3>
             {/* 注释掉的列表，使用正确的 JSX 注释格式 */}
