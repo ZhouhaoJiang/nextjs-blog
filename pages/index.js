@@ -44,7 +44,7 @@ export default function Home({ allPostsData }) {
             {/* 同样，对于外部链接使用 <a> 标签 */}
             <h3>
                 <div>
-                    <a href="https://github.com/1264204425">Here is my Github</a>
+                    <a href="https://github.com/ZhouhaoJiang">Here is my Github</a>
                 </div>
                 <div>
                     <a href='https://autocode.fun'>Here is my Blog</a>
