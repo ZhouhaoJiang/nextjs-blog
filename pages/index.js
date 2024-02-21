@@ -33,7 +33,7 @@ export default function Home({ allPostsData }) {
                 <p>Hello, I am a junior full-stack developer. Currently, I am continuing to learn Golang and React.</p>
                 <p>I enjoy playing table tennis and badminton. I have a passion for Python programming, where I work on
                     API development and backend development.</p>
-                <p>Additionally, I have an interest in web3 and cryptocurrency quantitative trading. I also closely
+                <p>Additionally, I have an interest in Data analysis, web3 and cryptocurrency quantitative trading. I also closely
                     follow the latest developments in AI.</p>
                 <p>You can learn more about me from my GitHub and blog.</p>
             </section>
